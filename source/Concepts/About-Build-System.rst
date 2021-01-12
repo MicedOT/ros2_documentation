@@ -1,19 +1,7 @@
-Core Stack Developer Overview
-=============================
+About the build system
+======================
 
-The ROS 2 core software stack breaks down into a few discrete but related parts:
-
-.. contents::
-   :depth: 2
-   :local:
-
-When reading this document, references to an "interface" or an ":term:`API`" generally imply a set of C or C++ headers which are installed, public, and subject to change control.
-Also, when references to an "implementation" are made that generally implies a set of source files, e.g. ``.c`` or ``.cpp`` files, that implement one of the described APIs.
-
-.. _build_system:
-
-Build System
-------------
+.. include:: ../../global_substitutions.txt
 
 Under everything is the build system.
 Iterating on ``catkin`` from ROS 1 we have created a set of |packages| under the moniker ``ament``.

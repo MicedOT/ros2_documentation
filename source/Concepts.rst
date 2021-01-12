@@ -3,26 +3,33 @@
 Concepts
 ========
 
-The following "Concepts" pages provide an overview for key aspects of ROS 2.
-Concept overviews will help you understand the "big picture" idea of ROS 2 systems.
+Conceptual overviews provide general background information about key aspects of ROS 2:
 
 .. toctree::
    :maxdepth: 1
 
-   Concepts/About-DDS-and-ROS-middleware-implementations
-   Concepts/About-Quality-of-Service-Settings
-   Concepts/About-ROS-Interfaces
-   Concepts/About-Topic-Statistics
-   Concepts/About-ROS-2-Client-Libraries
+   Concepts/About-Different-Middleware-Vendors
    Concepts/About-Logging
+   Concepts/About-Quality-of-Service-Settings
+   Concepts/About-ROS-2-Client-Libraries
+   Concepts/About-ROS-Interfaces
    Concepts/About-ROS-2-Parameters
-   Concepts/About-Build-System
-   Concepts/About-Internal-Interfaces
+   Concepts/About-Topic-Statistics
+
+The Core Stack Developer Concepts are much more detailed conceptual articles intended for developers who plan modify or contribute to the ROS 2 core:
+
+.. toctree::
+  :maxdepth: 2
+
+  Concepts/About-Build-System
+  Concepts/About-Internal-Interfaces
+  Concepts/About-Middleware-Implementations
+  Concepts/About-Client-Interfaces
 
 Quick overview of ROS 2 Concepts
 --------------------------------
 
-.. contents:: Table of Contents
+.. contents::
    :local:
 
 ROS 2 is a middleware based on an anonymous publish/subscribe mechanism that allows for message passing between different ROS processes.
